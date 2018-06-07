@@ -1,0 +1,128 @@
+extends ../template
+
+block variables
+    - var title = 'Tinyone'
+
+block content
+    .wrapper
+        section.main
+            header.header
+                .logo
+                    img.logo__img(src="assets/images/logo.svg")
+                    span.logo__name tinyone
+                .menu
+                    ul.menu__list
+                        li.menu__item
+                            a.menu__link(href="#") Features
+                        li.menu__item
+                            a.menu__link(href="#") Support
+                        li.menu__item
+                            a.menu__link(href="#") Blog
+            .about  
+                .general-info
+                    .general-info-title Inspire your inspiration
+                    .general-info-subtitle Simple to use for your app, products showcase and your inspiration
+                    .general-info-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit 
+                    .os
+                        ul.os__list
+                            li.os__item
+                                a.os__link(href="#") #[i.fa.fa-apple]
+                            li.os__item
+                                a.os__link(href="#") #[i.fa.fa-android]
+                            li.os__item
+                                a.os__link(href="#") #[i.fa.fa-windows]
+                .ipad
+                    img.ipad__img(src="assets/images/ipad.png")
+        section.features
+            .features-top
+                .general-info-title.features__title Tinyone features
+                .general-info-subtitle.features__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.
+            .features-bottom
+                ul.features__list
+                    li.features__item
+                        i.fa.fa-tablet.features__img.fa-3x
+                        .features__desc
+                            .features__desc-title Fully Responsive
+                            .features__desc-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                    li.features__item
+                        i.fa.fa-lemon-o.features__img.fa-3x
+                        .features__desc
+                            .features__desc-title Fully Layered PSD
+                            .features__desc-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                    li.features__item
+                        i.fa.fa-folder-o.features__img.fa-3x
+                        .features__desc
+                            .features__desc-title Font Awesome Icons
+                            .features__desc-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                    li.features__item
+                        i.fa.fa-code.features__img.fa-3x
+                        .features__desc
+                            .features__desc-title HTML3 &amp; CSS3
+                            .features__desc-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                    li.features__item
+                        i.fa.fa-envelope-o.features__img.fa-3x
+                        .features__desc
+                            .features__desc-title Email Template
+                            .features__desc-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                    li.features__item
+                        i.fa.fa-bookmark-o.features__img.fa-3x
+                        .features__desc
+                            .features__desc-title Free to download
+                            .features__desc-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+        section.contacts
+            .contacts-name
+                .general-info-title.general-info-title--yellow Keep in touch with us
+                .general-info-subtitle.general-info-subtitle--light-gray Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.
+            .contacts-mail
+                input.contacts-mail-line(type="text" value="Enter your email to update")
+                button.contacts-mail-btn(type='submit') Submit
+            .contacts-socials
+                ul.socials__list
+                    li.socials__item
+                        a.socials__link(href="#") #[i.fa.fa-facebook-square]
+                    li.socials__item
+                        a.socials__link(href="#") #[i.fa.fa-twitter-square]
+                    li.socials__item
+                        a.socials__link(href="#") #[i.fa.fa-google-plus-square]
+                    li.socials__item
+                        a.socials__link(href="#") #[i.fa.fa-pinterest-square]
+            .contacts-info
+                .contacts-info-address 
+                    p HALOVIETNAM LTD
+                    p 66, Dang Van ngu, Dong Da Hanoi, Vietnam
+                    p contact@halovietnam.com
+                    a(href='tel:+844 35149182') +844 35149182
+                .contacts-info-1block
+                    ul.contacts-info-1block__list
+                        li.contacts-info-1block__item
+                            a.contacts-info-block__link(href="#") Examples
+                        li.contacts-info-1block__item
+                            a.contacts-info-block__link(href="#") Shop
+                        li.contacts-info-1block__item
+                            a.contacts-info-block__link(href="#") License
+                .contacts-info-2block
+                    ul.contacts-info-2block__list
+                        li.contacts-info-2block__item
+                            a.contacts-info-block__link(href="#") Contact
+                        li.contacts-info-2block__item
+                            a.contacts-info-block__link(href="#") About
+                        li.contacts-info-2block__item
+                            a.contacts-info-block__link(href="#") Privacy
+                        li.contacts-info-2block__item
+                            a.contacts-info-block__link(href="#") Terms
+                .contacts-info-3block
+                    ul.contacts-info-3block__list
+                        li.contacts-info-3block__item
+                            a.contacts-info-block__link(href="#") Download
+                        li.contacts-info-3block__item
+                            a.contacts-info-block__link(href="#") Support
+                        li.contacts-info-3block__item
+                            a.contacts-info-block__link(href="#") Documents
+                .contacts-info-4block
+                    ul.contacts-info-4block__list
+                        li.contacts-info-4block__item
+                            a.contacts-info-block__link(href="#") Media
+                        li.contacts-info-4block__item
+                            a.contacts-info-block__link(href="#") Blog
+                        li.contacts-info-4block__item
+                            a.contacts-info-block__link(href="#") Forums

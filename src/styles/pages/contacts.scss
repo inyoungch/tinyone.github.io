@@ -1,0 +1,93 @@
+.contacts{
+    background: $black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contacts-name{
+    padding-bottom: rem(40px);
+}
+
+.general-info-title--yellow{
+    color: $yellow;
+    text-align: center;
+    padding-top: rem(90px);
+}
+
+.general-info-subtitle--light-gray{
+    color: $light-gray;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.contacts-mail{
+    margin-bottom: rem(70px);
+}
+
+.contacts-mail-line{
+    width: rem(580px);
+    height: rem(50px);
+    border-radius: rem(4px);
+    color: $light-gray;
+    margin-right: rem(20px);
+}
+
+.contacts-mail-btn{
+    width: rem(125px);
+    height: rem(50px);
+    border-radius: rem(4px);
+    background: $yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contacts-socials{
+    margin-bottom: rem(110px);
+}
+
+.socials__list{
+    display: flex;
+    justify-content: center;
+}
+
+.socials__item{
+    padding-right: rem(30px);
+}
+
+.socials__link{
+    font-size: rem(36px);
+    color: $yellow;
+}
+
+.contacts-info{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.contacts-info-address{
+    color: $white;
+    width: rem(190px);
+
+    & p{
+        margin: 0;
+    }
+
+    & a{
+        text-decoration: none;
+        color: $white;
+    }
+}
+
+.contacts-info-block__link{
+    text-decoration: none;
+    color: $white;
+    transition: .4s;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
